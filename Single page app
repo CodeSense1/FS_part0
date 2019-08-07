@@ -11,6 +11,9 @@ palvelin-->selain: main.css
 selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa.js
 palvelin-->selain: main.js
 
+selain->palvelin: HTTP GET selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+palvelin-->selain: data.json
+
 selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/fonts.css
 palvelin-->selain: fonts.css
 
